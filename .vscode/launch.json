@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SMPLWTHR",
+            "request": "launch", 
+            "type": "dart",
+            "program": "lib/pages/login_page.dart",
+            "args": [
+                "-v"
+            ] // Removed the leading slash
+        },
+        {
+            "name": "SMPLWTHR (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {   
+            "name": "SMPLWTHR (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
